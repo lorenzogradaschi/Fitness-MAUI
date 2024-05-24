@@ -1,0 +1,69 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DSR.SignUpPage"
+             x:Name="signupPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="15" Padding="30" VerticalOptions="Center" HorizontalOptions="Fill">
+
+            <!-- Name Entry -->
+            <Entry Placeholder="Name"
+                   Text="{Binding Name, Mode=TwoWay}"
+                   Keyboard="Default" />
+
+            <!-- Surname Entry -->
+            <Entry Placeholder="Surname"
+                   Text="{Binding Surname, Mode=TwoWay}"
+                   Keyboard="Default" />
+
+            <!-- Email Entry -->
+            <Entry Placeholder="Email"
+                   Text="{Binding Email, Mode=TwoWay}"
+                   Keyboard="Email" />
+
+            <!-- Password Entry -->
+            <Entry Placeholder="Password"
+                   Text="{Binding Password, Mode=TwoWay}"
+                   IsPassword="True"
+                   Keyboard="Default" />
+
+            <!-- Confirm Password Entry -->
+            <Entry Placeholder="Confirm Password"
+                   Text="{Binding ConfirmPassword, Mode=TwoWay}"
+                   IsPassword="True"
+                   Keyboard="Default" />
+
+            <!-- EMSO Entry -->
+            <Entry Placeholder="EMSO"
+                   Text="{Binding EMSO, Mode=TwoWay}"
+                   Keyboard="Numeric" />
+
+            <!-- Age Entry -->
+            <Entry Placeholder="Age"
+                   Text="{Binding Age, Mode=TwoWay}"
+                   Keyboard="Numeric" />
+
+            <!-- Date of Birth Picker -->
+            <DatePicker Date="{Binding DateOfBirth, Mode=TwoWay}"
+                        Format="D" />
+
+            <!-- Place of Birth Picker -->
+            <Picker Title="Place of Birth"
+                    ItemsSource="{Binding PlacesOfBirth}"
+                    SelectedItem="{Binding SelectedPlaceOfBirth, Mode=TwoWay}" />
+
+            <!-- Country Entry -->
+            <Entry Placeholder="Country"
+                   Text="{Binding Country, Mode=TwoWay}"
+                   Keyboard="Default" />
+
+            <!-- Sign Up Button -->
+            <Button Text="Sign Up"
+        Command="{Binding SignUpCommand}"
+        BackgroundColor="#4E9F3D"
+        TextColor="White"
+        CornerRadius="30" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

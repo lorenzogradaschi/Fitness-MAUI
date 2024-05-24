@@ -1,0 +1,71 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DSR"
+             x:Class="DSR.AdminPanelPage"
+             Title="Admin Panel">
+
+    <ScrollView Orientation="Both">
+        <!-- Vertical and horizontal scrolling -->
+        <VerticalStackLayout Padding="20">
+            <!-- Header -->
+            <Label Text="User Management" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <!-- Add New User Button -->
+            <Button Text="Add New User" Command="{Binding AddNewUserCommand}" />
+
+            <!-- User List -->
+            <CollectionView ItemsSource="{Binding Users}" VerticalOptions="FillAndExpand">
+                <CollectionView.Header>
+                    <Grid ColumnDefinitions="40,100,100,180,120,80,60,100,150,150" BackgroundColor="#E0E0E0" Padding="5">
+                        <Label Text="ID" FontAttributes="Bold" Grid.Column="0" />
+                        <Label Text="Name" FontAttributes="Bold" Grid.Column="1" />
+                        <Label Text="Surname" FontAttributes="Bold" Grid.Column="2" />
+                        <Label Text="Email" FontAttributes="Bold" Grid.Column="3" />
+                        <Label Text="Date of Birth" FontAttributes="Bold" Grid.Column="4" />
+                        <Label Text="Age" FontAttributes="Bold" Grid.Column="5" />
+                        <Label Text="EMSO" FontAttributes="Bold" Grid.Column="6" />
+                        <Label Text="Country" FontAttributes="Bold" Grid.Column="7" />
+                        <Label Text="Place of Birth" FontAttributes="Bold" Grid.Column="8" />
+                        <Label Text="Actions" FontAttributes="Bold" Grid.Column="9" HorizontalTextAlignment="Center" />
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="40,100,100,180,120,80,60,100,150,150" Padding="5" BackgroundColor="#F9F9F9" Margin="5">
+                            <Label Text="{Binding Id}" Grid.Column="0" />
+                            <Label Text="{Binding Name}" Grid.Column="1" />
+                            <Entry Text="{Binding Name}" Grid.Column="1" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding Surname}" Grid.Column="2" />
+                            <Entry Text="{Binding Surname}" Grid.Column="2" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding Email}" Grid.Column="3" />
+                            <Entry Text="{Binding Email}" Grid.Column="3" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding DateOfBirth, StringFormat='{0:yyyy-MM-dd}'}" Grid.Column="4" />
+                            <DatePicker Date="{Binding DateOfBirth}" Grid.Column="4" IsVisible="{Binding IsEditing}" Format="yyyy-MM-dd" />
+                            <Label Text="{Binding Age}" Grid.Column="5" />
+                            <Entry Text="{Binding Age}" Grid.Column="5" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding EMSO}" Grid.Column="6" />
+                            <Entry Text="{Binding EMSO}" Grid.Column="6" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding Country}" Grid.Column="7" />
+                            <Entry Text="{Binding Country}" Grid.Column="7" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding PlaceOfBirth}" Grid.Column="8" />
+                            <Entry Text="{Binding PlaceOfBirth}" Grid.Column="8" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <HorizontalStackLayout Grid.Column="9" Spacing="10" HorizontalOptions="Center">
+                                <Button Text="Edit" Command="{Binding Source={RelativeSource AncestorType={x:Type local:AdminPanelViewModel}}, Path=ToggleEditCommand}" CommandParameter="{Binding }" BackgroundColor="#4CAF50" TextColor="White" WidthRequest="60" HeightRequest="30" />
+                                <Button Text="Delete" Command="{Binding Source={RelativeSource AncestorType={x:Type local:AdminPanelViewModel}}, Path=DeleteUserCommand}" CommandParameter="{Binding }" BackgroundColor="#F44336" TextColor="White" WidthRequest="60" HeightRequest="30" />
+                                <Button Text="Save" 
+    Command="{Binding Source={RelativeSource AncestorType={x:Type local:AdminPanelViewModel}}, Path=SaveChangesCommand}" 
+    CommandParameter="{Binding }" 
+    BackgroundColor="#007ACC" 
+    TextColor="White" 
+    WidthRequest="60" 
+    HeightRequest="30" 
+    IsVisible="{Binding IsEditing}" />
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

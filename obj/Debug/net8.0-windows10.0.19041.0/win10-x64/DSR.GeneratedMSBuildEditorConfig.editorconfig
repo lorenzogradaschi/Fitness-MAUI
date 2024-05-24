@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DSR
+build_property.ProjectDir = C:\Users\Ella\Desktop\DSR\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Ella/Desktop/DSR/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Ella/Desktop/DSR/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Ella/Desktop/DSR/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Ella/Desktop/DSR/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Ella/Desktop/DSR/Views/AdminPanelPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Views.AdminPanelPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AdminPanelPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AdminPanelPage.xaml
+
+[C:/Users/Ella/Desktop/DSR/Views/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Views.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DashboardPage.xaml
+
+[C:/Users/Ella/Desktop/DSR/Views/EditUserPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Views.EditUserPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditUserPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditUserPage.xaml
+
+[C:/Users/Ella/Desktop/DSR/Views/FitnesPanel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Views.FitnesPanel.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\FitnesPanel.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\FitnesPanel.xaml
+
+[C:/Users/Ella/Desktop/DSR/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/Ella/Desktop/DSR/Views/Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Views.Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Page.xaml
+
+[C:/Users/Ella/Desktop/DSR/Views/SignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DSR.Views.SignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignUpPage.xaml

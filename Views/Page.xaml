@@ -1,0 +1,59 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DSR.Page"
+             Title="">
+    <!-- Overall Layout -->
+    <VerticalStackLayout Spacing="20" Padding="30" VerticalOptions="FillAndExpand">
+
+        <!-- Welcome Label -->
+        <Label Text="Welcome to our Gym!"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Style="{StaticResource WelcomeLabelStyle}"/>
+
+        <!-- Introductory Text -->
+        <Label Text="Unlock the full potential of our gym by logging in. Enjoy personalized workouts, track your progress, and much more."
+               FontSize="Medium"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"
+               Padding="10,0"/>
+
+        <!-- Clock Label -->
+        <Label Text="{Binding CurrentTime}" 
+               FontSize="Medium"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="Blue"
+               HorizontalTextAlignment="Center"
+               Padding="10,0"/>
+
+        <!-- Gym Features List -->
+        <CollectionView ItemsSource="{Binding GymFeatures}" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5"
+                           Style="{StaticResource FeatureFrameStyle}">
+                        <StackLayout>
+                            <Label Text="{Binding Title}"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"
+                                   Style="{StaticResource FeatureTitleStyle}"/>
+                            <Label Text="{Binding Description}"
+                                   FontSize="Small"
+                                   Style="{StaticResource FeatureDescriptionStyle}"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Navigate to the Log-in" 
+                HorizontalOptions="Center"
+                Clicked="OnLogoutClicked" 
+                BackgroundColor="Red" 
+                TextColor="White" />
+
+    </VerticalStackLayout>
+</ContentPage>

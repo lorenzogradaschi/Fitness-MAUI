@@ -1,0 +1,558 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ella\\Desktop\\DSR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\adminpanelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\adminpanelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\edituserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\edituserpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\platforms\\windows\\package.appxmanifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:platforms\\windows\\package.appxmanifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\controllers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:controllers\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ella\\Desktop\\DSR\\obj\\Debug\\net8.0-android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-android\\AndroidManifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\fitnespanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\fitnespanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\fitnespanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\fitnespanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\adminpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\adminpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\edituserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\edituserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:views\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\dsr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:dsr.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ella\\Desktop\\DSR\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ella\\Desktop\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ella\\Desktop\\Controllers\\DatabaseDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|c:\\users\\ella\\desktop\\dsr\\controllers\\emsoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15704BCF-7FDD-4990-BB17-CFEA12F79D0E}|DSR.csproj|solutionrelative:controllers\\emsoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Controllers\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Controllers\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Controllers\\DatabaseHelper.cs",
+              "RelativeToolTip": "Controllers\\DatabaseHelper.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowF4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:48:10.677Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-04T13:30:36.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPanelPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\AdminPanelPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminPanelPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\AdminPanelPage.xaml.cs",
+              "RelativeToolTip": "Views\\AdminPanelPage.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:12:48.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashBoardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\DashBoardPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DashBoardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\DashBoardPage.xaml.cs",
+              "RelativeToolTip": "Views\\DashBoardPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T15:25:42.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Page.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\Page.xaml",
+              "RelativeDocumentMoniker": "Views\\Page.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\Page.xaml",
+              "RelativeToolTip": "Views\\Page.xaml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAuwDQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T09:53:27.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\Page.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Page.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\Page.xaml.cs",
+              "RelativeToolTip": "Views\\Page.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAArwDkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T09:54:28.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "Views\\DashboardPage.xaml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T15:25:28.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditUserPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\EditUserPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\EditUserPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\EditUserPage.xaml.cs",
+              "RelativeToolTip": "Views\\EditUserPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:17:07.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignUpPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\SignUpPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SignUpPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\SignUpPage.xaml.cs",
+              "RelativeToolTip": "Views\\SignUpPage.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwM8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:32:35.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-04T13:31:25.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:33:44.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "Platforms\\Windows\\app.manifest",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "Platforms\\Windows\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-05-19T09:17:43.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Windows\\App.xaml",
+              "RelativeDocumentMoniker": "Platforms\\Windows\\App.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Windows\\App.xaml",
+              "RelativeToolTip": "Platforms\\Windows\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T09:17:50.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAKkAAAAAAAAAAADwv8kAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:32:29.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAowFAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-04T20:55:03.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "Platforms\\Windows\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeToolTip": "Platforms\\Windows\\Package.appxmanifest",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwBsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-05-19T09:40:41.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:33:18.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-18T18:13:33.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\obj\\Debug\\net8.0-android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\obj\\Debug\\net8.0-android\\AndroidManifest.xml",
+              "RelativeToolTip": "obj\\Debug\\net8.0-android\\AndroidManifest.xml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-05-18T18:12:42.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FitnesPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\FitnesPanel.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\FitnesPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\FitnesPanel.xaml.cs",
+              "RelativeToolTip": "Views\\FitnesPanel.xaml.cs",
+              "ViewState": "AQIAAOMAAAAAAAAAAAAAwP0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:13:34.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminPanelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\AdminPanelPage.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminPanelPage.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\AdminPanelPage.xaml",
+              "RelativeToolTip": "Views\\AdminPanelPage.xaml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowD0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T16:11:59.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FitnesPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\FitnesPanel.xaml",
+              "RelativeDocumentMoniker": "Views\\FitnesPanel.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\FitnesPanel.xaml",
+              "RelativeToolTip": "Views\\FitnesPanel.xaml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T16:13:16.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:27:00.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:48:55.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditUserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\EditUserPage.xaml",
+              "RelativeDocumentMoniker": "Views\\EditUserPage.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\EditUserPage.xaml",
+              "RelativeToolTip": "Views\\EditUserPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T21:16:50.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:31:28.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SignUpPage.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Views\\SignUpPage.xaml",
+              "RelativeToolTip": "Views\\SignUpPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-04T13:30:29.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DSR.csproj",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\DSR.csproj",
+              "RelativeDocumentMoniker": "DSR.csproj",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\DSR.csproj",
+              "RelativeToolTip": "DSR.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-04T13:40:14.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAArwBYAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-10T15:35:09.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAIwEMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T14:36:49.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EmsoAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\DSR\\Controllers\\EmsoAttribute.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmsoAttribute.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\DSR\\Controllers\\EmsoAttribute.cs",
+              "RelativeToolTip": "Controllers\\EmsoAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:47:30.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DatabaseDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\Controllers\\DatabaseDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Controllers\\DatabaseDbContext.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\Controllers\\DatabaseDbContext.cs",
+              "RelativeToolTip": "..\\Controllers\\DatabaseDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:47:43.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Ella\\Desktop\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "..\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Ella\\Desktop\\MauiProgram.cs",
+              "RelativeToolTip": "..\\MauiProgram.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:49:08.177Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

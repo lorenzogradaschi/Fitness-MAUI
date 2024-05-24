@@ -1,0 +1,36 @@
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:DSR"
+       x:Class="DSR.AppShell"
+       FlyoutBackgroundColor="White"
+       FlyoutBehavior="Disabled">
+
+    <!-- Custom Flyout Header -->
+    <Shell.FlyoutHeader>
+        <VerticalStackLayout Padding="10">
+            <Label Text="Menu" FontSize="24" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Black" />
+        </VerticalStackLayout>
+    </Shell.FlyoutHeader>
+
+    <!-- Root-level Routes -->
+    <ShellContent Route="page" ContentTemplate="{DataTemplate local:Page}" />
+    <ShellContent Route="login" ContentTemplate="{DataTemplate local:LoginPage}" />
+    <ShellContent Route="signup" ContentTemplate="{DataTemplate local:SignUpPage}" />
+
+    <!-- Dashboard Page -->
+    <FlyoutItem x:Name="DashboardFlyoutItem" Title="Dashboard" Route="dashboard" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Dashboard" ContentTemplate="{DataTemplate local:DashboardPage}" />
+    </FlyoutItem>
+
+    <!-- Admin Panel -->
+    <FlyoutItem x:Name="AdminPanelFlyoutItem" Title="Admin Panel" Route="adminPanel" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Admin Panel" ContentTemplate="{DataTemplate local:AdminPanelPage}" />
+    </FlyoutItem>
+
+    <!-- Fitness Panel -->
+    <FlyoutItem x:Name="FitnessPanelFlyoutItem" Title="Fitness Panel" Route="fitnessPanel" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Fitness Panel" ContentTemplate="{DataTemplate local:FitnessPanelPage}" />
+    </FlyoutItem>
+
+
+</Shell>

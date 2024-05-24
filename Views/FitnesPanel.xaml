@@ -1,0 +1,92 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DSR"
+             x:Class="DSR.FitnessPanelPage"
+             Title="Fitness Panel">
+
+    <!-- Resource Dictionary for Converters -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ScrollView Orientation="Both">
+        <VerticalStackLayout Padding="20">
+            <!-- Header -->
+            <Label Text="Fitness Center Management" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+
+            <!-- Input Form for New Fitness Center -->
+            <Grid x:Name="AddFitnessForm" IsVisible="{Binding IsFormVisible}" Padding="10" BackgroundColor="#F0F0F0" Margin="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Name:" Grid.Row="0" Grid.Column="0" VerticalOptions="Center"/>
+                <Entry Text="{Binding NewName}" Placeholder="Enter name" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="Location:" Grid.Row="1" Grid.Column="0" VerticalOptions="Center"/>
+                <Entry Text="{Binding NewLocation}" Placeholder="Enter location" Grid.Row="1" Grid.Column="1"/>
+                <Label Text="Subscribers:" Grid.Row="2" Grid.Column="0" VerticalOptions="Center"/>
+                <Entry Text="{Binding NewSubscribers}" Placeholder="Enter number of subscribers" Keyboard="Numeric" Grid.Row="2" Grid.Column="1"/>
+                <Label Text="Average Visitors:" Grid.Row="3" Grid.Column="0" VerticalOptions="Center"/>
+                <Entry Text="{Binding NewAverageVisitors}" Placeholder="Enter average number of visitors" Keyboard="Numeric" Grid.Row="3" Grid.Column="1"/>
+                <Button Text="Add Fitness Center" Command="{Binding ConfirmAddFitnessCommand}" Grid.Row="4" Grid.ColumnSpan="2" />
+            </Grid>
+
+            <!-- Toggle Form Visibility Button -->
+            <Button Text="Toggle Add Form" Command="{Binding ShowAddFitnessFormCommand}" />
+
+            <!-- Fitness List -->
+            <CollectionView ItemsSource="{Binding FitnessCenters}" VerticalOptions="FillAndExpand">
+                <CollectionView.Header>
+                    <Grid ColumnDefinitions="150,150,150,150,Auto" BackgroundColor="#E0E0E0" Padding="5">
+                        <Label Text="Name" FontAttributes="Bold" Grid.Column="0" />
+                        <Label Text="Location" FontAttributes="Bold" Grid.Column="1" />
+                        <Label Text="Subscribers" FontAttributes="Bold" Grid.Column="2" />
+                        <Label Text="Average Visitors" FontAttributes="Bold" Grid.Column="3" />
+                        <Label Text="Actions" FontAttributes="Bold" Grid.Column="4" HorizontalTextAlignment="Center" />
+                    </Grid>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="150,150,150,150,Auto" Padding="5" BackgroundColor="#F9F9F9" Margin="5">
+                            <Label Text="{Binding Name}" Grid.Column="0" />
+                            <Entry Text="{Binding Name}" Grid.Column="0" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding Location}" Grid.Column="1" />
+                            <Entry Text="{Binding Location}" Grid.Column="1" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding NumberOfSubscribers}" Grid.Column="2" />
+                            <Entry Text="{Binding NumberOfSubscribers}" Grid.Column="2" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <Label Text="{Binding AverageNumberOfPeople}" Grid.Column="3" />
+                            <Entry Text="{Binding AverageNumberOfPeople}" Grid.Column="3" IsVisible="{Binding IsEditing}" BackgroundColor="LightGray" />
+                            <HorizontalStackLayout Grid.Column="4" Spacing="10" HorizontalOptions="Center">
+                                <Button Text="Edit" Command="{Binding Source={RelativeSource AncestorType={x:Type local:FitnessPanelViewModel}}, Path=ToggleEditCommand}" CommandParameter="{Binding }" BackgroundColor="#4CAF50" TextColor="White" WidthRequest="60" HeightRequest="30" IsVisible="{Binding IsEditing, Converter={StaticResource BoolToVisibilityConverter}}" />
+
+                                <Button Text="Save"
+    Command="{Binding Source={RelativeSource AncestorType={x:Type local:FitnessPanelViewModel}}, Path=SaveChangesCommand}"
+    CommandParameter="{Binding}"
+    BackgroundColor="#007ACC"
+    TextColor="White"
+    WidthRequest="60"
+    HeightRequest="30"
+    IsVisible="True" />
+
+
+
+                                <Button Text="Delete" Command="{Binding Source={RelativeSource AncestorType={x:Type local:FitnessPanelViewModel}}, Path=DeleteFitnessCommand}" CommandParameter="{Binding }" BackgroundColor="#F44336" TextColor="White" WidthRequest="60" HeightRequest="30" />
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
